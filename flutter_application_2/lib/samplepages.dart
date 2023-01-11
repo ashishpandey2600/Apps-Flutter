@@ -5,17 +5,18 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Text("This is home Page"),
+      child: Image(image: AssetImage('assets/B11.jpg'),)
     ));
   }
 }
+
 class About extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Text("This is about Page"),
-    ));
+      child: Image(image: AssetImage('assets/by.png'), )
+      ));
   }
 }
 
@@ -24,7 +25,7 @@ class Service extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Center(
-      child: Text("This is service Page"),
+      child: Image(image: AssetImage('assets/AD.png'),)
     ));
   }
 }
