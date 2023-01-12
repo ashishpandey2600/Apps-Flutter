@@ -1,3 +1,7 @@
+import 'package:drawer_navigator/home.dart';
+import 'package:drawer_navigator/logout.dart';
+import 'package:drawer_navigator/maindrawer.dart';
+import 'package:drawer_navigator/setting.dart';
 import "package:flutter/material.dart";
 
 void main() {
@@ -21,7 +25,7 @@ class _MyDrawerState extends State<MyDrawer> {
       appBar: AppBar(
         title: Text("My App"),
       ),
-      drawer: Drawer(child: Text("DRAWER"),),
+      drawer: MainDrawer(),
       body: Center(
         child: Text("Home Page"),
       ),
